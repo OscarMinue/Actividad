@@ -1,3 +1,57 @@
 body {
-    background-color: rgba(77, 177, 177, 0.8)
+    background-color: rgba(77, 177, 177, 0.8);
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 32px;
+}
+
+.is-preload {
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+
+#nav a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#footer  #name, .posts article{
+    border: 2px dashed #CCCCCC;
+} 
+
+input[name="name"]:focus, input[name="email"]:focus, textarea[name="message"]:focus{
+    background-color: green;
+}
+
+nav#nav{
+    position: fixed;
+    right: 2px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 10px;
+    height: 20px;
+    border: 1px solid red;
+    margin: 5px; 
+}
+
+.posts article {
+    display: inline-block;
+    width: 20vh;
+    padding: 0 1%;
+}
+
+form{
+    display: block;
+    border: 0.025em solid indigo;
+    width: 50%;
+    text-align: center;
 }
